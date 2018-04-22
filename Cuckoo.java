@@ -185,7 +185,7 @@ public class Cuckoo {
         double levySteps5 = - levyDistribution.sample_positive(2.0, 10.0);
         double levySteps6 = - levyDistribution.sample_positive(2.0, 10.0);
         double levySteps7 = - levyDistribution.sample_positive(2.0, 10.0);
-        double levySteps8 = - levyDistribution.sample_positive(2.0, 10.0);
+        double levySteps8 = levyDistribution.sample_positive(2.0, 10.0);
         double levySteps9 = - levyDistribution.sample_positive(2.0, 10.0);
         double levySteps10 = - levyDistribution.sample_positive(2.0, 10.0);
         double levySteps11 = - levyDistribution.sample_positive(2.0, 10.0);
@@ -264,19 +264,19 @@ class Solution implements Comparable {
     private double PERFORMANCE_MEASURE;
 
     public Solution() {
-        COE_NUM_HOLES = -196.59170650618145;
+        COE_NUM_HOLES = -225.9077865186459;
         COE_HEIGHT_DIFF = -24.38282096450111;
         COE_MAX_HEIGHT = 7.384281915256887;
         COE_ROWS_CLEARED = 13.254838114099638;
         COE_LOST = -10000000;
-        COL_TRANSITIONS = -31.908886830653845;
+        COL_TRANSITIONS = -47.65925075712278;
         HOLE_DEPTH = -2.24152962603214;
         NUM_ROWS_WITH_HOLE = -73.20954912306729;
         ERODED_PIECE_CELLS = 0;
         LANDING_HEIGHT = -36.74466452169317;
         ROW_TRANSITIONS = -3.9610915186662368;
         CUMULATIVE_WELLS = -51.21263504379763;
-        PERFORMANCE_MEASURE = -51.21263504379763;
+        PERFORMANCE_MEASURE = 2005085.0;
     }
 
     public Solution(double COE_NUM_HOLES, double COE_HEIGHT_DIFF, double COE_MAX_HEIGHT, double COE_ROWS_CLEARED, double COE_LOST, double COL_TRANSITIONS,
